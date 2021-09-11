@@ -1,9 +1,9 @@
 /* Variables */
 :root{
-  --primary-color: #6D00A0;
+  --primary-color: #8e00cf;
   --secondary-color: white;
   --third-color: whitesmoke;
-  --dark-primary-color: #54007A;
+  --dark-primary-color: #2f0044;
 
   --wght-regular: 400;
   --wght-medium: 500;
@@ -47,12 +47,35 @@ main{
   width: 100%;
 }
 
-main table{
+table{
   width: 80%;
   margin: 0 auto;
+
+}
+
+table tr{
+  width: 100%;
+  display: flex;
+  margin: 0 0 0.5rem 0;
+}
+
+.title,
+.results{
+  flex: 1;
+  padding: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: justify;
 }
 
 .title{
   text-align: center;
-  background: blue;
+  background: var(--dark-primary-color);
+  color: var(--third-color);
 }
+
+.results{
+  border-bottom: 3px solid  var(--dark-primary-color);
+}
+
