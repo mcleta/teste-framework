@@ -1,0 +1,49 @@
+/* Variables */
+:root{
+  --primary-color: #6D00A0;
+  --secondary-color: white;
+  --third-color: whitesmoke;
+  --dark-primary-color: #54007A;
+
+  --wght-regular: 400;
+  --wght-medium: 500;
+  --wght-bold: 700;
+}
+
+/* Resets */
+*{
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+  font-family: 'Rubik', sans-serif;
+}
+
+/* Navigation */
+nav{
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 2rem;
+}
+
+nav img{
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+nav img:hover{
+  cursor: pointer;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Main */
+main{
+  width: 100%;
+  
+}
