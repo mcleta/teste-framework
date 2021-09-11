@@ -45,5 +45,14 @@ nav img:hover{
 /* Main */
 main{
   width: 100%;
-  
+}
+
+main table{
+  width: 80%;
+  margin: 0 auto;
+}
+
+.title{
+  text-align: center;
+  background: blue;
 }
